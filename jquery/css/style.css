@@ -1,0 +1,36 @@
+/*
+           Master Stylesheet
+    ============================
+    Template Name : mission
+    Author: Samafe islam tonnyma 
+    Author Url: samafe islam.com
+    Descriptions: agency,blog
+    Version:1.0.0
+   
+
+*/
+
+/*
+           Table of Content
+        =====================
+ 1. Typrography
+ 2.
+ 3.
+ 4.
+ 5.
+ 6.
+
+
+
+*/
+
+
+/*=========================
+        Typrography
+===========================*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+ *{
+    box-sizing: border-box;
+}

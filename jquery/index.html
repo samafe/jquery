@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+     <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>jquery</title>
+  </head>
+<body>
+  <p class="first">there is a lot of thing</p>
+  <p id="second">my name is samafe </p>
+  <p>jquery is used for utilites</p>
+  <p>ajax</p>
+  <ul class="ul">
+    <li>home</li>
+    <li>about</li>
+    <li>services</li>
+    <li>team</li>
+    <li>contract</li>
+    <li>convence</li>
+  </ul>
+  <ul>
+    <li>home</li>
+    <li>about</li>
+    <li>services</li>
+    <li>team</li>
+    <li>contract</li>
+    <li>convence</li>
+  </ul>
+  <button>click me here</button>
+     <!--============================= 
+             Header start here 
+     ==============================-->  
+     
+    <!--============================= 
+              Optional JavaScript 
+     ==============================-->  
+     <!-- JQuery    -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+     <!-- Bootstrap JS    -->
+    <script src="js/bootstrap.min.js"></script>
+     <!-- Custom JS    -->
+    <script src="js/script.js"></script>
+    <script type="text/JavaScript">
+      $(document).ready(function(){
+  $("button").click(function(){
+    $('.first').hide();
+  });
+});
+        $(document).ready(function(){
+  $("p").click(function(){
+    $('p#second').hide();
+  });
+});
+          $(document).ready(function(){
+  $("button").dblclick(function(){
+    $('.ul li:nth-child(3)').hide();
+  });
+});
+          $("p#second").hover(function(){
+  alert("hello everyone");
+},
+function(){
+  alert("Bye guys");
+});
+          $("button").focus(function(){
+  $(".ul li:nth-child(3)").css("background-color", "#ff5722");
+});
+    </script>
+  </body>
+</html>
